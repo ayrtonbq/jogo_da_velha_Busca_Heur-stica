@@ -1,8 +1,8 @@
 def print_board(board):
-    """Imprime o tabuleiro do jogo da velha sem a última linha de separação."""
+    """Imprime o tabuleiro do jogo da velha."""
     for i, row in enumerate(board):
         print(" | ".join(row))
-        if i < 2:  # Adiciona uma linha de separação apenas entre as linhas, não após a última linha
+        if i < 2:  
             print("-" * 9)
 
 
